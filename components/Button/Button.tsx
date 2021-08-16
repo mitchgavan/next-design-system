@@ -1,6 +1,6 @@
 import { styled } from '@stitches/react';
 
-const Button = styled('button', {
+export const Button = styled('button', {
   backgroundColor: 'gainsboro',
   borderRadius: '9999px',
   fontSize: '13px',
@@ -10,4 +10,4 @@ const Button = styled('button', {
   },
 });
 
-export default Button
+export const LinkButton = styled('a', Button)

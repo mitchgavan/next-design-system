@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import {Button, LinkButton} from '../components/Button/Button'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -20,6 +21,8 @@ export default function Home() {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
+        <Button>hehe</Button>
+        <LinkButton href="http://google.com">Link Button</LinkButton>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
